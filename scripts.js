@@ -1,1 +1,2 @@
-document.getElementById("currentdate2") = new Date(document.lastModified)
+document.querySelector('#currentdate2').innerHTML = document.lastModified
+document.querySelector('#year').innerHTML = new Date().getFullYear()
