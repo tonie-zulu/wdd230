@@ -1,0 +1,11 @@
+@media only screen and (min-width: 37em) {
+.item:nth-child(3) {
+      grid-column: span 2;
+  }
+ .container {
+      grid-template-columns: 1fr 1fr;
+  }
+  img {
+      width: 100%;
+  }
+}
